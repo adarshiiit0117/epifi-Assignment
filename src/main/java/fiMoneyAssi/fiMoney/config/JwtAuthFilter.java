@@ -1,4 +1,4 @@
-package fiMoneyAssi.fiMoney.config;
+/*package fiMoneyAssi.fiMoney.config;
 
 import jakarta.servlet.*;
 import jakarta.servlet.http.HttpServletRequest;
@@ -27,10 +27,19 @@ public class JwtAuthFilter implements Filter {
 
         System.out.println("🌐 Requested URI: " + uri);
 
-        if (uri.equals("/login") || uri.equals("/register")) {
+        if (uri.startsWith("/swagger-ui") ||
+                uri.startsWith("/v3/api-docs") ||
+                uri.startsWith("/swagger-resources") ||
+                uri.startsWith("/webjars") ||
+                uri.equals("/swagger-ui.html") ||
+                uri.equals("/favicon.ico") ||
+                uri.equals("/login") ||
+                uri.equals("/register")) {
+
             chain.doFilter(request, response);
             return;
         }
+
 
 
         if (authHeader == null || !authHeader.startsWith("Bearer ")) {
@@ -56,6 +65,6 @@ public class JwtAuthFilter implements Filter {
         System.out.println("✅ Token is valid — request allowed");
         chain.doFilter(request, response);
     }
-}
+}*/
 
 
