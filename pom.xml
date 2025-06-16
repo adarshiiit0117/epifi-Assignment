@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.dubey</groupId>
-	<artifactId>Workwhiz</artifactId>
+	<artifactId>fiMoney</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>WorkWhiz</name>
+	<name>fiMoney</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>21</java.version>
