@@ -68,8 +68,8 @@ Bearer <your_token_here>
 ### ✅ 1. Clone the project
 
 ```bash
-git clone https://github.com/your-repo/fimoney-inventory.git
-cd fimoney-inventory
+git clone https://github.com/your-repo/epifi-Assignment.git
+cd epifi-Assignment
 ```
 
 ### ✅ 2. Configure `application.properties`
@@ -138,7 +138,7 @@ pip install requests
 ### 2. Run the script
 
 ```bash
-python fimoney_test.py
+python test_script.py
 ```
 
 ### 🟢 Actual Output (Live Deployment)
@@ -158,7 +158,7 @@ Get Products: PASSED (Quantity = 15)
 ## 🔍 Project Structure
 
 ```
-fimoney-inventory/
+epifi-Assignment/
 ├── src/
 │   ├── controller/
 │   ├── service/
