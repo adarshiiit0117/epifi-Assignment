@@ -56,7 +56,7 @@ public class JwtTokenValidator extends OncePerRequestFilter {
             return;
         }
 
-        jwt = jwt.substring(7); // Strip "Bearer "
+        jwt = jwt.substring(7); 
 
         try {
             SecretKey key = Keys.hmacShaKeyFor(Base64.getDecoder().decode(JwtConstant.SECRET_KEY));
