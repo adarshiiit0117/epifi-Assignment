@@ -168,7 +168,7 @@ fimoney-inventory/
 │   ├── request/
 │   ├── response/
 │   └── FiMoneyApplication.java
-├── fimoney_test.py        # Python API tester
+├── test_script.py        # Python API tester
 ├── Dockerfile
 ├── pom.xml
 └── README.md
