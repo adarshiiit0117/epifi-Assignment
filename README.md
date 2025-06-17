@@ -27,15 +27,7 @@ Bearer <your_token_here>
 - 🐳 Dockerized deployment
 - 💾 MySQL integration (or H2 fallback)
 
----
 
-## 🧑‍💻 Test User (for Login)
-
-| Username | Password     | Role   |
-|----------|--------------|--------|
-| `puja`   | `mypassword` | ADMIN  |
-
----
 
 ## 📦 API Overview
 
